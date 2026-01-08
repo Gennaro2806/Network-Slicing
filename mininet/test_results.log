@@ -1,0 +1,41 @@
+--- REPORT TEST SDN AVANZATO ---
+Inizio sessione: 13:08:21
+
+[1] Verifica Connettività (H1 -> H3):
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=0.221 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=0.051 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=0.050 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=0.051 ms
+
+--- 10.0.0.3 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3111ms
+rtt min/avg/max/mdev = 0.050/0.093/0.221/0.073 ms
+
+[2] Test Video Slice (UDP 9999) - Target 10Mbps:
+Generazione traffico in corso...
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 9999
+Sending 1470 byte datagrams, IPG target: 1121.52 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.1 port 36799 connected with 10.0.0.3 port 9999
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-10.0477 sec  10.8 MBytes  9.05 Mbits/sec
+[  1] Sent 7731 datagrams
+[  1] Server Report:
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  1] 0.0000-10.1003 sec  10.8 MBytes  9.00 Mbits/sec   4.513 ms 0/7730 (0%)
+[  1] 0.0000-10.1003 sec  1 datagrams received out-of-order
+
+[3] Test Standard Slice (TCP) - Target 1Mbps:
+Generazione traffico in corso...
+------------------------------------------------------------
+Client connecting to 10.0.0.4, TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[  1] local 10.0.0.2 port 53424 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-12.0954 sec  1.38 MBytes   954 Kbits/sec
+
+Fine test: 13:08:51
