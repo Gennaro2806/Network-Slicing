@@ -17,6 +17,20 @@ Questa cartella contiene gli script e i file relativi alla simulazione di rete c
 
 ## Come usare questo progetto
 
+### Requisiti
+1. Installare Mininet dalla repository ufficiale:
+    - Aprire un terminale bash dalla cartella Desktop della vostra distribuzione linux
+    - ```sudo apt update```
+    - ```sudp apt install -y git```
+    - ```git clone https://github.com/mininet/mininet.git```
+    - ```cd mininet```
+    - ```sudo ./util/install.sh -a```
+    - Verifica installazione ```sudo mn --test pingall```
+2. Installazione repository
+    - Da terminale
+    - ```git clone https://github.com/Gennaro2806/Network-Slicing.git```
+    - ```pip install ./requirements.txt```
+### Utilizzo
 Per utilizzare il progetto aprire 5 terminali e lanciare i comandi indicati di seguito.
 
 1. Primo terminale (topologia Mininet):
@@ -39,7 +53,7 @@ Per utilizzare il progetto aprire 5 terminali e lanciare i comandi indicati di s
 	 - ```cd ./mininet```
      - ```sudo python3 ./run_tests.py #oppure ./capacity_test.py```
 
-     
+
 Note:
 - Assicurarsi di avere i permessi necessari per avviare Mininet (su Linux spesso è richiesto `sudo`).
 - Verificare che `ryu-manager` e `streamlit` siano installati e disponibili nel PATH.
