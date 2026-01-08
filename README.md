@@ -38,6 +38,8 @@ Per utilizzare il progetto aprire 5 terminali e lanciare i comandi indicati di s
 5. Quinto terminale (test o capacity):
 	 - ```cd ./mininet```
      - ```sudo python3 ./run_tests.py #oppure ./capacity_test.py```
+
+     
 Note:
 - Assicurarsi di avere i permessi necessari per avviare Mininet (su Linux spesso è richiesto `sudo`).
 - Verificare che `ryu-manager` e `streamlit` siano installati e disponibili nel PATH.
