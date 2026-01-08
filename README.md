@@ -14,5 +14,4 @@ Questa cartella contiene gli script e i file relativi alla simulazione di rete c
 - `monitor_network.py`: Script che monitora la rete in background, raccogliendo dati sul traffico e sulle prestazioni.
 - `capacity_test.py`: Script per eseguire test di carico sulla rete.
 - `run_tests.py`: Script per eseguire test automatici sulla topologia e sui controller.
-- `traffic_data.csv`: File CSV contenente dati di traffico utilizzati per i test e l'analisi.
 

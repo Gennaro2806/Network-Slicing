@@ -69,7 +69,7 @@ def main():
     subprocess.run("sudo pkill iperf", shell=True, stderr=subprocess.DEVNULL)
     
     with open(LOG_FILE, "w") as f: 
-        f.write(f"--- CAPACITY TEST (Soglia > 10% | Timeout 60s) ---\n")
+        f.write(f"--- CAPACITY TEST (Soglia > 10% | Timeout 100s) ---\n")
     fix_perms(LOG_FILE)
 
     log("Avvio Server iPerf su H4...")
