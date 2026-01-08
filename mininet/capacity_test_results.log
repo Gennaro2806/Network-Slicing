@@ -1,0 +1,41 @@
+--- ANALISI DI SATURAZIONE: 14:53:34 ---
+Avvio Server iPerf su H4 (Destinazione)...
+Target: Rilevare il limite della Standard Slice (Soglia Loss > 10.0%)
+--------------------------------------------------------------------------
+>>> Incremento carico: 0.20 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.30 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.40 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.50 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.60 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.70 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.80 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 0.90 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.00 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.10 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.20 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.30 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.40 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.50 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.60 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.70 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.80 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 1.90 Mbps
+   [Monitor] Perdita rilevata: 0.0%
+>>> Incremento carico: 2.00 Mbps
