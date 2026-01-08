@@ -1,41 +1,45 @@
---- ANALISI DI SATURAZIONE: 14:53:34 ---
-Avvio Server iPerf su H4 (Destinazione)...
-Target: Rilevare il limite della Standard Slice (Soglia Loss > 10.0%)
+--- CAPACITY TEST (Soglia > 10% | Timeout 60s) ---
+Avvio Server iPerf su H4...
+Inizio test di saturazione. Tempo limite: 60s
 --------------------------------------------------------------------------
->>> Incremento carico: 0.20 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.30 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.40 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.50 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.60 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.70 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.80 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 0.90 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.00 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.10 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.20 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.30 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.40 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.50 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.60 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.70 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.80 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 1.90 Mbps
-   [Monitor] Perdita rilevata: 0.0%
->>> Incremento carico: 2.00 Mbps
+
+>>> Carico: 0.20 Mbps (Tempo trascorso: 2s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.30 Mbps (Tempo trascorso: 6s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.40 Mbps (Tempo trascorso: 11s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.50 Mbps (Tempo trascorso: 16s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.60 Mbps (Tempo trascorso: 20s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.70 Mbps (Tempo trascorso: 25s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.80 Mbps (Tempo trascorso: 30s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 0.90 Mbps (Tempo trascorso: 34s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 1.00 Mbps (Tempo trascorso: 39s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 1.10 Mbps (Tempo trascorso: 44s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 1.20 Mbps (Tempo trascorso: 49s)
+   [Monitor CSV] Massimo Loss recente rilevato: 0.0%
+
+>>> Carico: 1.30 Mbps (Tempo trascorso: 55s)
+   [Monitor CSV] Massimo Loss recente rilevato: 33.3333%
+
+[!!!] SOGLIA 10.0% SUPERATA!
+La slice è collassata a 1.30 Mbps con perdita del 33.3333%.
+
+--- TEST COMPLETATO IN 60 SECONDI ---
